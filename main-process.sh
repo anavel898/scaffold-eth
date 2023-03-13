@@ -24,7 +24,6 @@ do
                 echo "Local is behind remote. Need to pull"
                 git pull
                 yarn deploy
-                #yarn start &  #I'll add it after I figure out how the frontend refreshes
         fi
         sleep 60
 done
